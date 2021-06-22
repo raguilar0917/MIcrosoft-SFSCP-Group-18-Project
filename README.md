@@ -3,6 +3,6 @@ MIcrosoft-SFSCP-Group-18-Project
 Creators: 
 
  Richard Aguilar
- Johnathan Wei Huynh
+ Johnathan Huynh
  Hugo Moreno
  
