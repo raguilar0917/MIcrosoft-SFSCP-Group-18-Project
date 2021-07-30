@@ -60,7 +60,33 @@ function Navbar() {
                 Resources
               </Link>
             </li>
-
+            <li className='nav-item'>
+              <Link
+                to='/connect'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Connect
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/about'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/contact'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Contact
+              </Link>
+            </li>
             <li>
               <Link
                 to='/sign-up'
