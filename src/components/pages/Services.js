@@ -1,6 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import AlertApp from '../AlertApp';
 
-export default function Services() {
-  return <h1 className='services'>Alert Function Coming Soon...</h1>;
+function Services() {
+  return (
+    <>
+      <AlertApp />
+    </>
+  );
 }
+
+export default Services;
