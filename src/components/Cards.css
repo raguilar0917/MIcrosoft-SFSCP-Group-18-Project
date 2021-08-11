@@ -1,10 +1,11 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: #1D1D1D;
 }
 
 h1 {
   text-align: center;
+  color:#fff
 }
 
 .cards__container {
@@ -36,9 +37,9 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  box-shadow: 0 6px 20px rgba(212, 180, 180, 0.322);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(212, 180, 180, 0.322));
+  filter: drop-shadow(0 6px 20px rgba(212, 180, 180, 0.322));
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -66,7 +67,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #D4B4B4;
   box-sizing: border-box;
 }
 
@@ -94,7 +95,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: #fff;
   font-size: 18px;
   line-height: 24px;
 }
