@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            ANTI-HATE
+          WHISTL
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -58,6 +58,33 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Resources
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/connect'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Connect
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/about'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/contact'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Contact
               </Link>
             </li>
 
